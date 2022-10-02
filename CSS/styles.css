@@ -88,6 +88,36 @@ display: flex;
        
 }
 
+.navigation_link_2 {
+    font-family: "Roboto";
+        font-style: normal;
+        color: var(--main-color);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+        position: relative;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+    }
+
+
+.navigation_link_2::after {
+position: absolute;
+    display: block;
+    content: "";
+    width: 100%;
+    left: 0;
+    right: 0;
+    border-bottom: 4px solid var(--main-color);
+    border-radius: 2px;
+    bottom: -31px;
+    margin: 0;
+    cursor: default;
+    pointer-events: none;
+}
+
+
 .web {
     color: #2196F3;
 }
