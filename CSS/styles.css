@@ -132,6 +132,8 @@ position: absolute;
         text-decoration: none;
     
         color: #212121;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        fill  250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav_list_link:hover,
@@ -169,7 +171,6 @@ position: absolute;
        
        margin-left: auto;
        align-items: center;
-       
 }
 .contacts_link {
     display: flex;
@@ -183,7 +184,8 @@ align-items: center;
         text-decoration: none;
     
         color: #757575;
-      
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts_item {
@@ -196,7 +198,8 @@ align-items: center;
     align-items: center;
 margin-right: 10px;
 fill: #757575;
-
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -433,6 +436,8 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         height: 44px;
         border-radius: 50%;
         fill: #AFB1B8;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .socialmedia_li:hover,
@@ -538,7 +543,13 @@ font-family: 'Roboto';
            
             cursor: pointer;
             border: 0;
+            transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            box-shadow  250ms cubic-bezier(0.4, 0, 0.2, 1),
+            background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            
 }
+
+
 
 .btn:hover,
 .btn:focus {
@@ -665,6 +676,8 @@ font-weight: 700;
             display: flex;
             align-items: center;
             justify-content: center;
+            transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+             fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
         .client_a:hover ,
@@ -677,8 +690,14 @@ border-color: #2196F3;
     fill: #2196F3;
    }
 
+   .client_svg:hover,
+   .client_svg:focus {
+    fill: #2196F3;
+   }
     .client_svg {
         fill: #afb1b8;
+        transition: 
+                fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
 
@@ -812,6 +831,7 @@ border-color: #2196F3;
         letter-spacing: 0.03em;
     
         color: rgba(255, 255, 255, 0.6);
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
  
 .address_link:hover,
@@ -852,6 +872,7 @@ border-color: #2196F3;
     width: 44px;
     height: 44px;
     border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .socialmedia_li_2:hover,
