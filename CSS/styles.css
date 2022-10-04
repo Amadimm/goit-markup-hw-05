@@ -218,8 +218,8 @@ ol {
     display: flex;
     justify-content: center;
     
-        margin-right: auto;
-        margin-left: auto;
+        /* margin-right: auto;
+        margin-left: auto; */
 }
 
 .h1_section {
@@ -229,7 +229,7 @@ ol {
         display: flex;
         flex-direction: column;
         /* padding-top: 200px; */
-        max-width: 1600px ;
+       width: 1600px ;
         justify-content: center;
         align-items: center;
 background-position: center;
