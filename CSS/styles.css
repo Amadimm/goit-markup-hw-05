@@ -224,7 +224,8 @@ ol {
 
 .h1_section {
    background: #2F303A;
-
+   
+   width: 100%;
     height: 600px;
         display: flex;
         flex-direction: column;
@@ -235,7 +236,6 @@ ol {
 background-position: center;
 background-repeat: no-repeat;
 background-size:auto auto ;
-width: 100%;
         background-image: linear-gradient(to bottom, #2f303a66 0%, #2f303a66 100%),
                 url("../images/backgrond.jpg");
                 /* margin-right: 0;
